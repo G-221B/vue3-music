@@ -1,12 +1,16 @@
 <template>
-  <div class="pageWrapper">
-    <Menu></Menu>
-  </div>
+    <div class="pageWrapper">
+        <Menu></Menu>
+    </div>
 </template>
 
 <script setup lang="ts">
 import Menu from './components/Menu/index.vue';
-console.log('menu', Menu)
+function a():number {
+    const t = 1;
+    return t;
+}
+a();
 </script>
 
 <style scoped lang="scss">
