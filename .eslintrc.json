@@ -47,6 +47,5 @@
             "single"
         ],
         "no-empty": "error"
-    },
-    "excludedFiles": "*.d.ts"
+    }
 }
