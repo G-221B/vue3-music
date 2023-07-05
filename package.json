@@ -15,7 +15,8 @@
         "@icon-park/vue-next": "^1.4.2",
         "normalize.css": "^8.0.1",
         "sass": "^1.63.6",
-        "vue": "^3.2.47"
+        "vue": "^3.2.47",
+        "vue-router": "4"
     },
     "devDependencies": {
         "@commitlint/cli": "^17.6.6",

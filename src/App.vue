@@ -1,6 +1,7 @@
 <template>
     <div class="pageWrapper">
         <Menu></Menu>
+        <RouterView></RouterView>
     </div>
 </template>
 
