@@ -6,7 +6,7 @@
 </template>
 
 <script setup lang="ts">
-import Menu from './components/Menu/index.vue';
+import Menu from '@/components/Menu/index.vue';
 function a(): number {
     const t = 1;
     return t;
