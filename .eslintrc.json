@@ -40,6 +40,10 @@
         "@typescript-eslint/indent": "off",
         "@typescript-eslint/space-before-function-paren": "off",
         "@typescript-eslint/type-annotation-spacing": "off",
+        "@typescript-eslint/member-delimiter-style": ["error", {"multiline": {
+            "delimiter": "semi",
+            "requireLast": true
+          }}],
         "vue/multi-word-component-names": "off",
         "no-unused-vars": "error",
         "quotes": [
