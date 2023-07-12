@@ -13,6 +13,7 @@
     },
     "dependencies": {
         "@icon-park/vue-next": "^1.4.2",
+        "axios": "^1.4.0",
         "normalize.css": "^8.0.1",
         "pinia": "^2.1.4",
         "sass": "^1.63.6",
