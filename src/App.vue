@@ -1,6 +1,6 @@
 <template>
     <div class="pageWrapper">
-        <Menu></Menu>
+        <Menu name="hickey" :age="12"></Menu>
         <RouterView></RouterView>
     </div>
 </template>
@@ -9,9 +9,13 @@
 import useUserStore from '@/store/userStore';
 import Menu from '@/components/Menu/index.vue';
 
+import { ref } from 'vue';
+
+const name = ref<string | number>('name');
+
 const userStore = useUserStore();
 
-console.log(userStore.name);
+console.log(userStore.name, name);
 userStore.changeName('ggg');
 console.log(userStore.name);
 console.log(userStore.nameAndId);
