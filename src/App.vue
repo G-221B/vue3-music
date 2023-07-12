@@ -1,6 +1,6 @@
 <template>
     <div class="pageWrapper">
-        <Menu name="hickey" :age="12"></Menu>
+        <Menu></Menu>
         <RouterView></RouterView>
     </div>
 </template>
@@ -29,6 +29,7 @@ a();
 
 <style scoped lang="scss">
 .pageWrapper {
+    display: flex;
     width: 100%;
     height: 100%;
 }
