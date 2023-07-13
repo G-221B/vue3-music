@@ -4,7 +4,12 @@
             <div class="title">{{ menu.name }}</div>
             <div v-for="child in menu.childs" :key="child.name">
                 <div class="item">
-                    <span></span>
+                    <SvgIcon
+                        :name="child.iconName"
+                        width="18px"
+                        height="18px"
+                        color="red"
+                    ></SvgIcon>
                     <RouterLink :to="child.key" class="name">{{
                         child.name
                     }}</RouterLink>

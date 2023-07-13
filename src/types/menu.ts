@@ -5,6 +5,6 @@ interface TMenuList {
 interface TMenu {
     name: string;
     key: string;
-    icon?: string;
+    iconName: string;
 }
 export type IMenuList = TMenuList[];
